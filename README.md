@@ -5,6 +5,7 @@
 int rxPin = 0;
 int txPin = 1;
 SdsDustSensor sds(rxPin, txPin);
+
  
 void setup() {
   Serial.begin(9600);
